@@ -1,4 +1,5 @@
-import React from 'react'
+// logo png 
+
 
 import { styles } from '../../style'
 
@@ -9,7 +10,9 @@ function Navbar() {
         <div className="navbar flex items-center justify-between  ">
   <div className="navbar-start sm:w-[30%] w-[40%] ">
     
-    <a className="btn btn-ghost text-xl px-0">Nur-Books</a>
+    <a className="btn btn-ghost text-xl px-0 w-12 h-12 rounded-full overflow-hidden">
+      <img src={''} className='w-full ' alt="img" />
+    </a>
   </div>
   {/* search */}
   <div className='sm:w-1/2 w-full '>
